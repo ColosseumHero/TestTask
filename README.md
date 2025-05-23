@@ -22,17 +22,19 @@ Prerequisites
 
 Setup and Run
 
-1. Unzip the Archive
+1. Clone the Repository
 
-2. Extract the archive to a folder (e.g., TestTask2205).
+    git clone <repository-url>
 
-3. Run with Docker
+    cd incident_project
+
+2. Run with Docker
    
     Navigate to the project folder:
         docker-compose up --build
-4. The API will be available at http://localhost:8000/api/incidents/.
+3. The API will be available at http://localhost:8000/api/incidents/.
 
-5. Swagger documentation: http://localhost:8000/swagger/.
+4. Swagger documentation: http://localhost:8000/swagger/.
 
 API Endpoints
 
